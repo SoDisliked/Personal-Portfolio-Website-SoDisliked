@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>@SoDisliked</title>
+        <link rel="stylesheet" href="Style sheet.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image.png" class="logo">
+                <ul>
+                    <div class="left"></div>
+                    <li><a href="#SoDisliked's website">SoDisliked's website</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About myself">About myself</a></li>
+                    <li><a href="#Contact & social media links">Contact & social media links</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <div>Romanian student at emlyon Business School.</div>
+                <h1>Hi, my name is<span> SoDisliked</span><br>or my real life name, Luca Frumuselu.</h1>
+                <span id="element"></span>
+                <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Welcome to my official written website', 'about myself.', 'I am an enthusiast of web development', 'and also about finance.', 'So lets get started!'],
+      typeSpeed: 50,
+    });
+  </script>
+            </div>
+        </div>
+    </div>
+    <!-- -------about-------- -->
+    <div id="about me">
+        <div class="container">
+            <div class="about-col-1">
+                <h1 class="sub-title">About me</h1>
+                <p>My name is Luca Lucian Frumuselu, I'm an 18 years-old Romanian student
+                    in my first year as a Global Bachelor in Business Administration at
+                    the French school entitled emlyon Business School. My cursus will last
+                    from 2022 to 2026 with an option to select a master of my choice. 
+                </p>
+
+                <div class="sub-titles">
+                    <p class="tab-links active-link" onclick="opentab('interest')">🧑‍🎓Centers of interest</p>
+                    <p class="tab-links" onclick="opentab('education')">📚Education</p>
+                    <p class="tab-links" onclick="opentab('programming languages')">💻Programming languages known</p>
+                </div>
+                <div class="tab-contents active-tab" id="interest">
+                    <ul>
+                        <li><span>Programming</span><br>Knowledge of JavaScript, HTML, CSS, C#, C++, TypeScript, Python and R</li>
+                        <li><span>Finance</span><br>M&A, analysis of balance sheets, interpretation of income and cash flow statements.</li>
+                        <li><span>Sports</span><br>Football, gym training, basketball</li>
+                        <li><span>Languages</span><br>🇷🇴 Romanian, 🇫🇷 French, English, 🇮🇹 Italian, 🇪🇸 Spanish, 🇰🇷 Korean</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>emlyonBusinessSchool</span><br>4 years bachelor degree where I'm learning the main principles of business, finance, management and marketing basis.</li>
+                        <li><span>Lycée Notre-Dame du Château, Monistrol-sur-Loire</span><br>French general baccaulaureate with the obtention of the average grade of 16.26/20, main subjects being Mathematics and Economics.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="programming">
+                    <ul>
+                        <li><span>Known programming languages</span><br>JavaScript, C#, C++, TypeScript, Python, R</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Further contact details</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Centers of interest</h2>
+                    <p>Programming, finance, history, politics, sports.</p>
+                    <a href="#">Further details</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Education</h2>
+                    <p>Information about my educational background</p>
+                    <a href="#">Further details</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Information</h2>
+                    <p>Started to code at the age of 16 years-old, most of my knowledge is on JavaScript, C#, C++, TypeScript, Python and R.</p>
+                    <a href="#">Further details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------personal presentation----------- -->
+<div id="personal presentation">
+    <div class="container">
+        <h1 class="sub-title">My goals</h1>
+        <div class="goals-list">
+            <div class="goals">
+                <img src="icon.png">
+                <div class="layer">
+                    <h3>Learn more programming skills.</h3>
+                    <p>Have a better knowledge of how .NET frameworks work, how to use Python modules
+                        for data prediction and have a better understanding of Node.JS.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="goals">
+                <img src="icon.png">
+                <div class="layer">
+                    <h3>Learn more programming skills.</h3>
+                    <p>Have a better knowledge of how .NET frameworks work, how to use Python modules
+                        for data prediction and have a better understanding of Node.JS.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="goals">
+                <div class="layer">
+                    <h3>Learn more programming skills.</h3>
+                    <p>Have a better knowledge of how .NET frameworks work, how to use Python modules
+                        for data prediction and have a better understanding of Node.JS.</p>
+                    <a href="#"><i class="fa-solid fa-coins"></i></a>
+                </div>
+                <img src="icon.png">
+            </div>
+        </div>
+        <a href="#" class="btn">See further details.</a>
+    </div>
+</div>
+<!-- --------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Social contacts</h1>
+                <p><i class="fa-sharp fa-light fa-paper-plane-top"> </i>lucalucian.frumuselu@edu.em-lyon.com</p>
+                <p><i class="fa-solid fa-phone"></i> 06 28 52 77 64</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/frumuselu-luca-715177257/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SoDisliked"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/so_disliked"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="properties/CV Application Luca Frumuselu.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>   
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+
+</html>
